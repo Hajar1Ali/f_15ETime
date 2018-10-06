@@ -1,0 +1,15 @@
+/**
+ Export to JSON plugin for PHPMyAdmin
+ @version 0.1
+ */
+
+// Database 'eTimeDB'
+
+// eTimeDB.eTimeTable
+
+[{
+
+"freeBed":"6",
+"waitingTime":"19"
+
+}]

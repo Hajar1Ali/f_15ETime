@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+"
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="55dp"
+
+        android:text="الحي السكني"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#707070"
+        android:textSize="25dp"
+        android:fontFamily="@font/j"
+        />
+
+    <Spinner
+
+        android:fontFamily="@font/j"
+        android:id="@+id/spinner"
+        android:layout_marginTop="55dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:hint="نوع المنتج "
+        android:inputType="text"
+        android:textColor="#cc3333"
+        android:textSize="25sp"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="30dp">
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="10dp"
+            android:background="#dedede"
+            android:layout_marginRight="10dp"
+            android:textColor="#72A6B2"
+            android:textSize="11sp"
+            android:fontFamily="@font/j"
+
+            android:text="  مستشفى الجدعاني     المروة 6   "
+            />
+
+
+
+
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="#dedede"
+            android:layout_marginRight="10dp"
+            android:textColor="#72A6B2"
+            android:textSize="11sp"
+            android:fontFamily="@font/j"
+            android:text="  عدد السرر المتوفرة     وقت الإنتظار المتوقع"
+            />
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#cc3333"
+            android:background="#dedede"
+            android:textSize="11sp"
+            android:fontFamily="@font/j"
+            android:layout_marginBottom="15dp"
+            android:text="          15                                 23دقيقة      "
+            />
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="30dp">
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="10dp"
+            android:background="#dedede"
+            android:layout_marginRight="10dp"
+            android:textColor="#72A6B2"
+            android:textSize="11sp"
+            android:fontFamily="@font/j"
+
+            android:text="  مستشفى المساعدية     فلسطين   "
+            />
+
+
+
+
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="#dedede"
+            android:layout_marginRight="10dp"
+            android:textColor="#72A6B2"
+            android:textSize="11sp"
+            android:fontFamily="@font/j"
+
+            android:text="  عدد السرر المتوفرة     وقت الإنتظار المتوقع"
+            />
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#cc3333"
+            android:background="#dedede"
+            android:textSize="11sp"
+            android:fontFamily="@font/j"
+
+            android:text="          16                                 33دقيقة      "
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="99dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/fj"
+        android:textSize="20sp"
+        android:background="@drawable/rounded_button"
+        android:text="إبلاغ"
+        android:fontFamily="@font/j"
+        android:textColor="#fffefe"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="30dp">
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginLeft="10dp"
+            android:background="#dedede"
+            android:layout_marginRight="10dp"
+            android:textColor="#72A6B2"
+            android:textSize="11sp"
+            android:fontFamily="@font/j"
+
+            android:text="  مستشفى الملك فهد     الصفا   "
+            />
+
+
+
+
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="#dedede"
+            android:layout_marginRight="10dp"
+            android:textColor="#72A6B2"
+            android:textSize="11sp"
+            android:fontFamily="@font/j"
+
+            android:text="  عدد السرر المتوفرة     وقت الإنتظار المتوقع"
+            />
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#cc3333"
+            android:background="#dedede"
+            android:textSize="11sp"
+            android:fontFamily="@font/j"
+
+            android:text="          17                                 45دقيقة      "
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/ff"
+        android:layout_width="99dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/j"
+        android:text="إبلاغ"
+
+        android:textColor="#fffefe"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="30dp">
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="290dp"
+            android:layout_marginLeft="10dp"
+            android:background="#dedede"
+            android:layout_marginRight="10dp"
+            android:textColor="#72A6B2"
+            android:textSize="11sp"
+            android:fontFamily="@font/j"
+
+            android:text="  مستشفى الجدعاني     المروة 6   "
+            />
+
+
+
+
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="#dedede"
+            android:layout_marginRight="10dp"
+            android:textColor="#72A6B2"
+            android:textSize="11sp"
+            android:fontFamily="@font/j"
+
+            android:text="  عدد السرر المتوفرة     وقت الإنتظار المتوقع"
+            />
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#cc3333"
+            android:background="#dedede"
+            android:textSize="11sp"
+            android:fontFamily="@font/j"
+
+            android:text="          15                                 23دقيقة      "
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="99dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/fff"
+        android:textSize="20sp"
+        android:background="@drawable/rounded_button"
+        android:text="إبلاغ"
+        android:fontFamily="@font/j"
+
+        android:textColor="#fffefe"/>
+
+
+</RelativeLayout>

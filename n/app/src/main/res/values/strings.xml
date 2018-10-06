@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">n</string>
+    <string-array name="planets_array">
+        <item>المروة 7</item>
+        <item>الورود</item>
+        <item>الفيحاء</item>
+
+
+    </string-array>
+    <string name="title_activity_singup">المستشفيات</string>
+    <string name="title_activity_s">s</string>
+</resources>
+
